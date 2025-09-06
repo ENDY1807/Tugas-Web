@@ -19,7 +19,7 @@ $hobi = "Menulis Novel, Mendengarkan Lagu, Menyanyi";
         <nav class="nav-container">
           <div class="logo">Web Task</div>
           <ul class="nav-links">
-            <li><a href="Home.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="profile.php">Profile</a></li>
             <li><a href="medsos.php">Media Sosial</a></li>
             <li><a href="perhitungan.php">Hitung</a></li>
@@ -79,4 +79,5 @@ $hobi = "Menulis Novel, Mendengarkan Lagu, Menyanyi";
     </section>
     <script src="script.js"></script>
 </body>
+
 </html>
