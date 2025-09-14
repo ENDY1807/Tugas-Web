@@ -190,7 +190,7 @@ header {
 }
 
 .hero-text h1 {
-    font-size: 16px;
+    font-size: 2rem;
     font-weight: 900;
     margin-bottom: 1.5rem;
     line-height: 1.1;
@@ -202,7 +202,7 @@ header {
     letter-spacing: 2px;
 }
 .hero-text h4 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 900;
     margin-bottom: 1.5rem;
     line-height: 1.1;
@@ -216,7 +216,7 @@ header {
 
 .hero-text p {
     font-size: 1.2rem;
-    color: #b0bec5;
+    color: #ffffff;
     line-height: 1.8;
     font-weight: 400;
 }
@@ -772,3 +772,4 @@ footer {
 .fade-in {
     animation: fadeInUp 0.6s ease-out;
 }
+
