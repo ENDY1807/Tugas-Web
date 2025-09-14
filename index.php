@@ -6,62 +6,12 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      .nav-links {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
-
-/* Tombol hamburger */
-.hamburger {
-  display: none;
-  font-size: 26px;
-  cursor: pointer;
-  color: white;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .nav-links {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    flex-direction: column;
-    background: #111;
-    width: 200px;
-    height: 100%;
-    padding-top: 60px;
-    gap: 15px;
-    transition: left 0.3s ease;
-  }
-
-  .nav-links.active {
-    left: 0;
-  }
-}
-    </style>
   </head>
   <body>
     <header>
       <div class="container">
         <nav class="nav-container">
           <div class="logo">Web Task</div>
-
-          <div class="hamburger" onclick="toggleMenu()">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-
           <ul class="nav-links" id="navLinks">
             <li><a href="Home.php">Home</a></li>
             <li><a href="profile.php">Profile</a></li>
